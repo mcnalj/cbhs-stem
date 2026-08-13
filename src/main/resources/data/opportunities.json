@@ -1,0 +1,33 @@
+{
+  "opportunities": [
+    {
+      "id": "career-exploration-intensive",
+      "title": "Career Exploration Intensive",
+      "type": "Extended Learning Opportunity",
+      "description": "In collaboration with staff and community partners, students design an internship in a field of interest and receive essential job skills training. After the internship, staff helps students reflect on their experience and synthesize their learning. All students are encouraged to complete the Career Exploration intensive at least once before they graduate.",
+      "gradeLevels": ["9", "10", "11", "12"]
+    },
+    {
+      "id": "maine-app-challenge",
+      "title": "Tyler Technologies Maine App Challenge",
+      "type": "Competition",
+      "description": "The Maine App Challenge invites Maine middle and high school students to create an app that solves a problem in their community. CBHS students participate as part of our extended STEM learning opportunities.",
+      "gradeLevels": ["9", "10", "11", "12"],
+      "moreInfoLink": "/maine-app-challenge"
+    },
+    {
+      "id": "u-start-ahead",
+      "title": "U. Start Ahead (USM / SMCC College Courses)",
+      "type": "College Course",
+      "description": "CBHS upperclassmen are strongly encouraged to enroll in at least one USM or SMCC course before they graduate. CBHS students are often eligible for at least one course, tuition free, each semester, thanks to our partnership with the two colleges.",
+      "gradeLevels": ["11", "12"]
+    },
+    {
+      "id": "coming-soon",
+      "title": "More opportunities coming soon",
+      "type": "TBD",
+      "description": "This section will grow as students add internships, clubs, competitions, and other STEM extended learning opportunities. Check back throughout the school year.",
+      "gradeLevels": []
+    }
+  ]
+}

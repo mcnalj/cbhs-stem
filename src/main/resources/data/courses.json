@@ -1,0 +1,164 @@
+{
+  "courses": [
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "department": "Math",
+      "gradeLevels": ["9"],
+      "description": "Most ninth-grade students at Casco Bay High School will take this course. The standards and rigor will be differentiated to accommodate the skills and needs of the students. We will utilize the Illustrative Math curriculum to develop crucial geometric understandings and mathematical reasoning through inquiry, productive struggle and authentic application. The geometry course will also intersect with, and amplify, grade level expeditions when appropriate. Students looking for additional rigor and in-depth problem-solving opportunities can enroll in a weekly Exceeds Math Seminar that will prepare students to take Pre-Calculus as sophomores.",
+      "prerequisites": [],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "sophomore-algebra",
+      "name": "Sophomore Algebra",
+      "department": "Math",
+      "gradeLevels": ["10"],
+      "description": "This course will use secondary math topics from algebra, geometry, trigonometry, and statistics to investigate the guiding questions: \"How can we compare things in the real world using data?\" and \"How can we communicate these relationships in a precise and convincing way?\" Students will deepen their understanding of real-world relationships through mathematics modeling, particularly using experimental data from their Physics course. Students will focus on recognizing patterns of change in linear, quadratic, exponential, and trigonometric function families and apply characteristics of those families to physics concepts. Students will learn and apply concepts from statistics, primarily linear regression, correlation, and central tendency, in order to use data effectively in support of their arguments. Students will also practice traditional algebra techniques of arithmetic and symbolic manipulation.",
+      "prerequisites": ["Geometry"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "sophomore-pre-calculus",
+      "name": "Sophomore Pre-Calculus",
+      "department": "Math",
+      "gradeLevels": ["10"],
+      "description": "Sophomores with substantial skills and experience with algebra may take Pre-Calculus. With a dual focus on application and abstract understanding, Pre-Calculus is designed to prepare students for Calculus and to set the foundation for a career in science, technology, engineering, or math. To facilitate deeper learning, we use a model (EL Education's Workshop 2.0) that asks students to grapple with challenging material before receiving direct instruction. The primary topics we will investigate are: functions and function families; roots of polynomial equations; complex numbers; trigonometry; and sequences and series. Whenever possible and appropriate, Sophomore Pre-Calculus will connect to and extend upon learning in sophomore Physics.",
+      "prerequisites": ["Geometry", "Strong algebra skills"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "junior-senior-algebra",
+      "name": "Junior-Senior Algebra",
+      "department": "Math",
+      "gradeLevels": ["11", "12"],
+      "description": "This course uses secondary math topics (Algebra, Geometry, Trigonometry, and Statistics) to investigate the guiding questions, \"How can we compare things in the real world using numbers?\" and, \"How can we communicate these relationships in a precise and convincing way?\" With a continued emphasis on group-work, investigation, project-based assessment, authentic application, and technology, students deepen their understanding of real-world relationships through mathematical modeling. This course also includes practice and preparation for the math section of the SAT and integrates when appropriate with junior and senior expeditions.",
+      "prerequisites": ["Sophomore Algebra or equivalent"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "junior-senior-pre-calculus",
+      "name": "Junior-Senior Pre-Calculus",
+      "department": "Math",
+      "gradeLevels": ["11", "12"],
+      "description": "With a dual focus on application and abstract understanding, Pre-Calculus is a high-level math class designed to prepare students for Calculus and to set the foundation for a career in science, technology, engineering, or math. To facilitate deeper learning, we use a model (EL Education's Workshop 2.0) that asks students to grapple with challenging material before receiving direct instruction. The primary topics we will investigate are: functions and function families; roots of polynomial equations; complex numbers; trigonometry; and sequences and series. This course also includes practice and preparation for the math section of the SAT and integrates when appropriate with junior and senior expeditions.",
+      "prerequisites": ["Sophomore Algebra or Sophomore Pre-Calculus"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "department": "Math",
+      "gradeLevels": ["11", "12"],
+      "description": "This introductory course in statistics will revolve around case studies such as the issue of fairness in the draft for the Vietnam war, or using probability to prove guilt or innocence in murder trials. Topics will include probability, probability distributions, correlation, linear regression and hypothesis testing. The goal is to prepare students for success in rigorous college statistics programs.",
+      "prerequisites": ["CBHS Algebra"],
+      "stemSequence": false,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "ap-calculus-ab",
+      "name": "AP Calculus AB",
+      "department": "Math",
+      "gradeLevels": ["11", "12"],
+      "description": "AP Calculus AB is designed to be the equivalent of a first-semester college calculus course. It focuses on the topics of limits, differentiation, and integration. Students will use these core calculus concepts to analyze functions that are important in biology, ecology, economics, epidemiology, engineering and other scientific and quantitative fields. Students will learn to use definitions and theorems to build mathematical arguments and justify conclusions. Emphasis will be placed on clear communication of methods using multiple representations of real-world functions. Students will solve problems that include a mix of skill building exercises and real world applications and can expect significant work outside of class. It is expected that students will take the AP Calculus AB exam that is administered in May.",
+      "prerequisites": ["Pre-Calculus"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "the-code",
+      "name": "The Code: Introduction to Programming",
+      "department": "Computer Science",
+      "gradeLevels": ["10", "11", "12"],
+      "description": "The Code is an introduction to computer programming using the JavaScript programming language and the App Lab programming environment. Students will learn JavaScript programming syntax by designing graphics and simple animations. They will progress to learning the core features of the JavaScript programming language while incorporating user interactions into their programs. Students will gain experience connecting their programs to databases and Application Programming Interfaces. Ultimately students will use App Lab to create their own original, web-based apps that fulfill a need in our community. Throughout this process, students will explore how computers and the internet work and will contribute to a computing culture that is collaborative and equitable. No prior experience is necessary to be successful in this course.",
+      "prerequisites": [],
+      "stemSequence": false,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "ap-computer-science",
+      "name": "AP Computer Science",
+      "department": "Computer Science",
+      "gradeLevels": ["11", "12"],
+      "description": "AP Computer Science is an exploration of object-oriented programming using the Python programming language. Students will write mini-programs and solve challenges to gain skill in the use of Python data structures, control flow, and classes. Students will use their knowledge to solve problems in data science, develop programs using Application Programming Interfaces (APIs), and create games using the pygame module. Throughout this process, students will gain insight into the tools and techniques of computer programming and will contribute to a computing culture that is collaborative and equitable. This course is intended for students who have completed The Code or have equivalent experience with programming. Emphasis will be on developing effective problem-solving skills, learning effective programming patterns, and building the foundation for continuous learning in computer science.",
+      "prerequisites": ["The Code or equivalent programming experience"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "department": "Science",
+      "gradeLevels": ["9"],
+      "description": "9th Graders focus on understanding the interconnected nature of living and nonliving systems on earth. We will explore the impact that advancing scientific knowledge has had on society and the factors that lead to those advances. We will also discuss the ethical implications of science and technology. Topics will include cells, microbiology, genetics, ecology and evolution. Students will develop problem-solving skills, participate in scientific fieldwork, learn to complete labs, and communicate as scientists.",
+      "prerequisites": [],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "department": "Science",
+      "gradeLevels": ["10"],
+      "description": "This course is designed to have students learn how to describe and explain the events that occur in the physical world. Students will routinely be asked to problem-solve, complete labs and communicate as scientists and engineers. There will be a strong emphasis on describing and explaining motion using a variety of representations including mathematical representations. Throughout this course, students will use physics concepts to design innovative solutions to problems using an engineering approach. Whenever possible, physics is integrated with instruction happening within sophomore math courses. Topics we will study include position, velocity, acceleration, Newton's Laws, kinetic and potential energy as well as heat transfer and theoretical physics. Each year there is one physics/math-centered sophomore expedition.",
+      "prerequisites": ["Biology"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "department": "Science",
+      "gradeLevels": ["11"],
+      "description": "Junior science will focus on how chemistry impacts our daily lives and the world as a whole. Juniors will investigate the many facets of chemistry, which can be defined as the study of matter and the changes that matter undergoes. Students will perform lab work, analyze data, and communicate as scientists. Topics will include: atomic structure, structure and properties of matter, chemical reactions, conservation of energy, and the interactions between matter and energy. Chemistry will integrate with junior courses and junior expeditions whenever appropriate.",
+      "prerequisites": ["Physics"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "introduction-to-engineering",
+      "name": "Introduction to Engineering",
+      "department": "Science",
+      "gradeLevels": ["11", "12"],
+      "description": "In this course for juniors and seniors, students will learn about the processes of engineering through the exploration of design, electronics and some basic robotics. Students in this class will learn how to use computer aided design, basic electronics (such as Little Bits and Arduino), as well as use tools in our Digital Fabrication lab (with LASER Cutter/Engraver, 3-D printers, Milling Machine and Vinyl Cutter) to evolve ideas to prototypes.",
+      "prerequisites": ["Physics"],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long)"
+    },
+    {
+      "id": "astronomy",
+      "name": "Astronomy (STEM Topics)",
+      "department": "Science",
+      "gradeLevels": ["11", "12"],
+      "description": "In this course we explore the universe beyond our solar system. We will learn about how scientists discover and explain how the universe works using different kinds of light. There will be hands-on labs, digital image production as well as opportunities to meet on-line with astronomers working in the fields of X-Ray, Radio and Infrared Astronomy. Offered first semester as part of the STEM Topics series.",
+      "prerequisites": [],
+      "stemSequence": false,
+      "credits": "1 UP (semester)"
+    },
+    {
+      "id": "sound-engineering",
+      "name": "Sound Engineering (STEM Topics)",
+      "department": "Science",
+      "gradeLevels": ["11", "12"],
+      "description": "In this course we will work to understand the properties of sound. We will work to create sound both mechanically and digitally. We will look at how our ability to engineer sound has evolved from basic recording to 8-bit sound and to the latest in digital editing. The course will conclude with the creation of one of a kind digitally engineered ringtones for students' phones. Offered second semester as part of the STEM Topics series.",
+      "prerequisites": [],
+      "stemSequence": false,
+      "credits": "1 UP (semester)"
+    },
+    {
+      "id": "usm-environmental-science",
+      "name": "USM Environmental Science",
+      "department": "Science",
+      "gradeLevels": ["11", "12"],
+      "description": "The goal of the USM Environmental Science course is to provide students with the scientific principles, concepts, and methodologies required to understand the interrelationships of the natural world, to identify and analyze environmental problems both natural and human-made, to evaluate the relative risks associated with these problems, and to examine alternative solutions for resolving and/or preventing them. This course is interdisciplinary covering geology, biology, environmental science, chemistry, and geography. USM Environmental Science is a rigorous science course that stresses scientific principles and analysis. This course includes a laboratory component and is concurrently enrolled at the University of Southern Maine. It earns a total of four college credits (3 credits for the lecture and 1 credit for the lab portion).",
+      "prerequisites": [],
+      "stemSequence": true,
+      "credits": "2 UPs (year-long) + 4 college credits"
+    }
+  ]
+}

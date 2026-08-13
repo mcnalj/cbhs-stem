@@ -1,0 +1,28 @@
+/**
+ * CBHS STEM site branding — colors from cbhs.portlandschools.org
+ * Source: CascoBayHighSchool.css theme (Finalsite)
+ */
+:root {
+  /* Primary brand */
+  --cbhs-teal: #117c9d;
+  --cbhs-teal-dark: #00263a;
+  --cbhs-cyan: #19aad7;
+  --cbhs-green: #303632;
+
+  /* Neutrals */
+  --cbhs-text: #131313;
+  --cbhs-text-secondary: #373737;
+  --cbhs-text-muted: #636363;
+  --cbhs-border: #cfcfcf;
+  --cbhs-bg-light: #f8f8f8;
+  --cbhs-bg-alt: #e5e5e5;
+  --cbhs-white: #ffffff;
+
+  /* Typography */
+  --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-heading: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Layout */
+  --max-width: 1180px;
+  --header-height: 80px;
+}

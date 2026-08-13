@@ -1,0 +1,41 @@
+{
+  "title": "STEM Diploma Endorsement",
+  "overview": "Portland Public Schools students who excel in STEM (Science, Technology, Engineering and Math) have the opportunity to earn a STEM endorsement on their diploma.",
+  "purposes": [
+    "To recognize and support PPS students who achieve excellence, demonstrate commitment and pursue personal best in their STEM learning through both their high school coursework and extended learning opportunities.",
+    "To promote more students becoming college and career ready in STEM and striving to reach for a higher academic bar."
+  ],
+  "requirements": [
+    {
+      "number": 1,
+      "text": "Complete a minimum of 20 UPs in STEM coursework."
+    },
+    {
+      "number": 2,
+      "text": "Show competency in Pre-Calculus concepts (minimum)."
+    },
+    {
+      "number": 3,
+      "text": "Earn UPs in at least one STEM college course or STEM AP course."
+    },
+    {
+      "number": 4,
+      "text": "Demonstrate substantial commitment and excellence with STEM learning beyond our STEM courses. This is typically done with at least 50 hours of STEM learning in at least 2 of the 3 extended learning categories listed below."
+    }
+  ],
+  "extendedLearning": [
+    {
+      "name": "STEM-Related Internships",
+      "minimumHours": "minimum 10 hours"
+    },
+    {
+      "name": "Extended Learning Opportunities (ELOs)",
+      "minimumHours": "minimum 30 hours"
+    },
+    {
+      "name": "Senior Capstone Projects/Expeditions",
+      "minimumHours": "minimum 20 hours"
+    }
+  ],
+  "trackingNote": "A student who does not pursue the typical path must have their individualized plan pre-approved by the conclusion of their junior year. Students will be responsible for planning, documenting and reflecting on their progress towards their STEM endorsement annually, beginning in the spring of their sophomore year. At the end of junior year, in order to be officially \"on track\" for their STEM endorsement (and to report this out for college admissions), a student must have earned at least 16 UPs and 30 hours of STEM learning (or the approved equivalent)."
+}
