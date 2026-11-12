@@ -8,7 +8,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   navLinks.forEach(function (link) {
     var linkPath = link.getAttribute("href");
-    if (linkPath === currentPath || (currentPath === "/" && linkPath === "/")) {
+    var isWebDesignPage = linkPath === "/web"
+      && (currentPath === "/html" || currentPath.indexOf("/html/") === 0
+        || currentPath === "/css" || currentPath.indexOf("/css/") === 0);
+    if (linkPath === currentPath || (currentPath === "/" && linkPath === "/") || isWebDesignPage) {
       link.classList.add("active");
     }
   });

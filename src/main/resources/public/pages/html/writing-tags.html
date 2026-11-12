@@ -1,0 +1,30 @@
+<div class="page-header">
+  <h1>Writing HTML Tags</h1>
+  <p class="lead">Tags tell the browser what kind of content an element contains.</p>
+</div>
+<section>
+  <h2>Opening tags, content, and closing tags</h2>
+  <p>Most elements have an opening tag, some content, and a closing tag. The closing tag has a slash before the tag name. Together, these parts make an element.</p>
+  <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+  <p>Elements can go inside other elements. Close the most recently opened element first.</p>
+  <pre><code>&lt;p&gt;A paragraph with &lt;strong&gt;important text&lt;/strong&gt;.&lt;/p&gt;</code></pre>
+</section>
+<section>
+  <h2>Page structure and nesting</h2>
+  <p>HTML elements are nested when one element is placed inside another. A complete page is inside the <code>html</code> element. Inside it, the <code>head</code> holds page information and the <code>body</code> holds the visible page. Within the body, elements such as <code>div</code> and <code>section</code> group related content, and those groups can contain headings, paragraphs, images, and other elements.</p>
+  <pre><code>&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;title&gt;A Page About Space&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;main&gt;
+      &lt;section&gt;
+        &lt;h1&gt;Planets&lt;/h1&gt;
+        &lt;p&gt;Our solar system has eight planets.&lt;/p&gt;
+      &lt;/section&gt;
+    &lt;/main&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+  <p>Indent nested elements to make the structure easy to see. Close elements in reverse order: the last element opened should be the first one closed.</p>
+</section>
+<section><h2>Learn more</h2><ul><li><a href="https://www.w3schools.com/html/html_elements.asp" target="_blank" rel="noopener noreferrer">W3Schools: HTML Elements</a></li></ul></section>

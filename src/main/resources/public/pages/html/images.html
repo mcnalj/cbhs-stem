@@ -1,0 +1,31 @@
+<div class="page-header">
+  <h1>Adding Images</h1>
+  <p class="lead">Use the <code>img</code> element to show an image on your page.</p>
+</div>
+<section>
+  <h2>The Image Source and Alternative Text</h2>
+  <p>The <code>src</code> attribute tells the browser where the image file is saved. 
+    Save images in the same folder as your html file. Or create a sub-folder within your project folder. 
+    The example below shows a <code>src</code> value that points to a file named <code>planet-earth.jpg</code> that is stored in a sub-folder named <code>images</code>.</p>
+  <p>The <code>alt</code> attribute describes the image for people who cannot see it or for when it does not load.</p>
+  <p>The <code>img</code> element does not need a closing tag.</p>
+  <pre><code>&lt;img src="images/planet-earth.jpg" alt="Earth seen from space"&gt;</code></pre>
+  <h2>Troubleshooting</h2>
+  <p>If your image does not display:</p>
+  <ul>
+    <li>Check <code>src</code> to confirm that you spelled the file name correctly (especially <code>.jpg</code> or <code>.jpeg</code>).</li>
+    <li>Confirm that <code>src</code> points to the correct location of your image.</li>
+    <li>Confirm that your file extension is <code>.jpg</code>, <code>.jpeg</code>, or <code>.png</code>, and not <code>.webp</code> or <code>.aviv</code>.</li>
+  </ul>
+  <h2>Sizing Images</h2>
+  <p>Use the <code>style</code> attribute to set an image's width. Setting the height to <code>auto</code> keeps the image's proportions.</p>
+  <pre><code>&lt;img src="images/planet-earth.jpg"
+     alt="Earth seen from space" style="width: 300px; height: auto;"&gt;</code></pre>
+  <h2>Centering Images</h2>
+  <p>To center an image, make it a block and set its left and right margins to <code>auto</code>.</p>
+  <pre><code>&lt;img src="images/planet-earth.jpg"
+     alt="Earth seen from space"
+     style="display: block; margin: 0 auto;"&gt;</code></pre>
+  <p><strong>Note:</strong> These examples use inline styling: CSS declarations written in an HTML element's <code>style</code> attribute. You could accomplish the same effect by using CSS in a separate stylesheet.</p>
+</section>
+<section><h2>Learn more</h2><ul><li><a href="https://www.w3schools.com/html/html_images.asp" target="_blank" rel="noopener noreferrer">W3Schools: HTML Images</a></li></ul></section>

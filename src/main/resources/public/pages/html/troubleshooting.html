@@ -1,0 +1,20 @@
+<div class="page-header">
+  <h1>HTML Troubleshooting</h1>
+  <p class="lead">When a page looks wrong, check one thing at a time and inspect your HTML carefully.</p>
+</div>
+<section>
+  <h2>Common things to check</h2>
+  <ul>
+    <li>Check that tag names are spelled correctly and every opening tag has a matching closing tag.</li>
+    <li>Close nested elements in reverse order: the last element you opened should be the first one you close.</li>
+    <li>Make sure quotation marks around attribute values are paired.</li>
+    <li>Check that file names and paths match exactly, including capitalization.</li>
+    <li>Save your file, then refresh the browser.</li>
+  </ul>
+  <pre><code>&lt;!-- Incorrect: the paragraph closes before strong --&gt;
+&lt;p&gt;&lt;strong&gt;Important&lt;/p&gt;&lt;/strong&gt;
+
+&lt;!-- Correct: close the last-opened element first --&gt;
+&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;&lt;/p&gt;</code></pre>
+</section>
+<section><h2>Learn more</h2><ul><li><a href="https://www.w3schools.com/html/html_validate.asp" target="_blank" rel="noopener noreferrer">W3Schools: HTML Validation</a></li></ul></section>

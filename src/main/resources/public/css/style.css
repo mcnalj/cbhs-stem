@@ -58,6 +58,14 @@ p {
   line-height: 1.7;
 }
 
+.lead p {
+  margin-bottom: 0.35rem;
+}
+
+.lead p:last-child {
+  margin-bottom: 0;
+}
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -182,6 +190,166 @@ main {
 .card p {
   font-size: 0.9375rem;
   margin-bottom: 1rem;
+}
+
+.web-foundations-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.web-foundation-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.web-foundation-card img {
+  width: 3rem;
+  height: 3rem;
+  flex: 0 0 3rem;
+}
+
+.web-foundation-card h2 {
+  margin: 0 0 0.25rem;
+  color: var(--cbhs-teal);
+}
+
+.web-foundation-card p {
+  margin: 0;
+}
+
+.web-foundations-cards > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.web-foundations-cards > a:hover h2,
+.web-foundations-cards > a:focus-visible h2 {
+  text-decoration: underline;
+}
+
+.reference-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.reference-card {
+  color: inherit;
+  text-decoration: none;
+}
+
+.reference-card:focus-visible {
+  outline: 3px solid var(--cbhs-teal);
+  outline-offset: 3px;
+}
+
+.reference-card h2 {
+  color: var(--cbhs-teal);
+}
+
+.reference-card p {
+  margin-bottom: 0;
+}
+
+.reference-content section {
+  margin: 0 0 2rem;
+}
+
+.reference-content h2 {
+  margin-top: 1.5rem;
+}
+
+.reference-content pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background: var(--cbhs-bg-light);
+  border: 1px solid var(--cbhs-border);
+  line-height: 1.5;
+}
+
+.reference-content code,
+.reference-content pre {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+.reference-content :not(pre) > code {
+  padding: 0.1em 0.35em;
+  background: var(--cbhs-bg-alt);
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.reference-content kbd {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--cbhs-border);
+  border-radius: 4px;
+  background: var(--cbhs-white);
+  box-shadow: 0 1px 0 var(--cbhs-border);
+  font-family: inherit;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.lesson-tip {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--cbhs-cyan);
+  background: var(--cbhs-bg-light);
+}
+
+.lesson-tip h2 {
+  margin-top: 0;
+}
+
+.lesson-tip ol {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+
+.reference-tag-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.reference-tag-table th,
+.reference-tag-table td {
+  padding: 0.65rem;
+  border: 1px solid var(--cbhs-border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.reference-tag-table th {
+  background: var(--cbhs-bg-light);
+}
+
+@media (max-width: 700px) {
+  .web-foundations-cards {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .reference-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .reference-card-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .btn {

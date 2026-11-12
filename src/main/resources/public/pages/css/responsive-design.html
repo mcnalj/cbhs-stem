@@ -1,0 +1,21 @@
+<div class="page-header">
+  <h1>Responsive Design</h1>
+  <p class="lead">Responsive CSS helps a page adapt to phones, tablets, and larger screens.</p>
+</div>
+<section>
+  <h2>Change layout for smaller screens</h2>
+  <p>A media query applies styles only when a condition is true, such as when the browser window is narrower than a chosen width.</p>
+  <pre><code>.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}</code></pre>
+  <p>Test your page at different widths and make sure text and controls remain easy to use.</p>
+</section>
+<section><h2>Learn more</h2><ul><li><a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank" rel="noopener noreferrer">W3Schools: Responsive Web Design</a></li></ul></section>

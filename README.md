@@ -51,6 +51,8 @@ src/main/resources/
     js/                            JavaScript
     images/                        Logo and images
     pages/                         HTML page templates
+      html/                        Editable HTML topic content
+      css/                         Editable CSS topic content
 ```
 
 ## Pages
@@ -64,6 +66,16 @@ src/main/resources/
 | `/colleges` | Blank scaffold — students build this |
 | `/alumni` | Blank scaffold — students build this |
 | `/partners` | Blank scaffold — students build this |
+
+### Edit web design topics
+
+Each HTML and CSS reference topic has its own editable HTML content file:
+
+- HTML topics: `src/main/resources/public/pages/html/`
+- CSS topics: `src/main/resources/public/pages/css/`
+- Shared navigation and page frame: `src/main/resources/public/pages/web-reference.html`
+
+Edit a topic file's HTML to change its explanations, examples, or links. The shared template supplies the site navigation and styles.
 
 ## How to add content
 

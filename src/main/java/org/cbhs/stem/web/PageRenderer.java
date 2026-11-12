@@ -22,6 +22,19 @@ public class PageRenderer {
         return template.replace("{{" + placeholder + "}}", content);
     }
 
+    public String loadPublicResource(String resourceName) {
+        return loadTemplate("public/" + resourceName);
+    }
+
+    public String renderReferencePage(String technology, String topic) {
+        String content = loadTemplate("public/pages/" + technology + "/" + topic + ".html");
+        return loadTemplate("public/pages/web-reference.html")
+                .replace("{{TECH_PATH}}", technology)
+                .replace("{{TECH_NAME}}", technology.toUpperCase())
+                .replace("{{TECH_TITLE}}", technology.toUpperCase())
+                .replace("{{CONTENT}}", content);
+    }
+
     public String buildCourseListHtml(List<Course> courses) {
         StringBuilder html = new StringBuilder();
 

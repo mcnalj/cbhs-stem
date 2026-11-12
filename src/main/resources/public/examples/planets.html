@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar System Flexbox Challenge</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #0b0d1b;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px 20px;
+    }
+
+    .navbar {
+        background-color: #0e1122;
+        border-bottom: 1px solid #222746;
+        padding: 15px 30px;
+        
+        /* Flexbox distributes the logo to the left and links to the right */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-logo {
+        font-weight: 700;
+        color: #5dade2;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .nav-links a {
+        color: #aeb6bf;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color 0.2s ease;
+    }
+-
+    .nav-links a:hover {
+        color: #5dade2;
+    }
+
+   .footer {
+            background-color: #0e1122;
+            border-top: 1px solid #222746;
+            padding: 30px;
+            color: #7f8c8d;
+            font-size: 0.85rem;
+
+            /* 3-Column Grid setup splits information perfectly into columns */
+            display: grid;
+            grid-template-columns: 1fr, 1fr, 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+
+    .footer-left {
+        text-align: left;
+    }
+
+    .footer-center {
+        text-align: center;
+    }
+
+    .footer-right {
+        text-align: right;
+    }
+
+    .footer a {
+        color: #7f8c8d;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+    .footer a:hover {
+            color: #bdc3c7;
+    }
+
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      color: #5dade2;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #aeb6bf;
+    }
+
+    /* =======================================================
+       STUDENT MISSION CONTAINER
+       ======================================================= */
+    .space-container {
+      background-color: #161a30;
+      border: 2px dashed #34495e;
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      /* 
+        👉 MISSION 1: Turn this container into a Flexbox track! 
+        Add: display: flex;
+        
+        👉 MISSION 2: Stop the planets from stretching or squishing out of the box.
+        Add: flex-wrap: wrap;
+        
+        👉 MISSION 3: Space the planets out evenly or center them nicely.
+        Add: justify-content: center; (or space-around, or space-between)
+        
+        👉 MISSION 4: Give the rows and columns some breathing room.
+        Add: gap: 20px;
+      */
+    }
+
+    /* =======================================================
+       PLANET CARDS (The Items inside the Flexbox Container)
+       ======================================================= */
+    .planet {
+      background: linear-gradient(135deg, #1f2441, #282e52);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      border: 1px solid #3b447a;
+      
+      /* Each planet card defaults to a fixed width so they can wrap perfectly */
+      width: 220px; 
+    }
+
+    /* Simple structural styling for the interior of the cards */
+    .planet-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      background-color: #34495e;
+      color: #bdc3c7;
+      padding: 3px 8px;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .planet-badge.gas { background-color: #7d6608; color: #f4d03f; }
+    .planet-badge.ice { background-color: #1b4f72; color: #5dade2; }
+    .planet-badge.dwarf { background-color: #4a235a; color: #bb8fce; }
+
+    .planet h2 {
+      font-size: 1.6rem;
+      margin-bottom: 5px;
+    }
+
+    .planet .type {
+      color: #85929e;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+
+    .planet p {
+      font-size: 0.85rem;
+      color: #d5dbdb;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+        <div class="nav-logo">PlanetsEdu</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">The Sun</a></li>
+            <li><a href="#">The Moon</a></li>
+            <li><a href="#">NASA</a></li>
+        </ul>
+  </nav>
+
+  <header>
+    <h1>Flexbox: Planetary Alignment</h1>
+    <p>Use CSS Flexbox to organize the solar system. Add styles to the <code>.space-container</code> to change the layout of the planets.</p>
+  </header>
+
+  <!-- The Parent Flexbox Container -->
+  <div class="space-container">
+
+    <!-- Card 1 -->
+    <div class="planet">
+      <span class="planet-badge">Terrestrial</span>
+      <h2>Mercury</h2>
+      <p class="type">Closest to the Sun</p>
+      <p>The smallest planet in our solar system and the fastest, zipping around the Sun in only 88 Earth days.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="planet">
+      <span class="planet-badge">Terrestrial</span>
+      <h2>Venus</h2>
+      <p class="type">The Hot Planet</p>
+      <p>Spinning slowly in the opposite direction of most planets, Venus has a thick atmosphere that traps heat like a greenhouse.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="planet">
+      <span class="planet-badge">Terrestrial</span>
+      <h2>Earth</h2>
+      <p class="type">Our Home</p>
+      <p>The only place in the known universe confirmed to host life. Covered mostly in liquid water oceans.</p>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="planet">
+      <span class="planet-badge">Terrestrial</span>
+      <h2>Mars</h2>
+      <p class="type">The Red Planet</p>
+      <p>A dusty, cold, desert world with a very thin atmosphere. Home to the largest volcano in our solar system.</p>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="planet">
+      <span class="planet-badge gas">Gas Giant</span>
+      <h2>Jupiter</h2>
+      <p class="type">The King</p>
+      <p>Twice as massive as all the other planets combined. Famous for its ancient, massive "Great Red Spot" storm.</p>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="planet">
+      <span class="planet-badge gas">Gas Giant</span>
+      <h2>Saturn</h2>
+      <p class="type">Ringed Wonder</p>
+      <p>Adorned with a dazzling, complex system of icy rings, this planet is so light it could float in a giant bathtub.</p>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="planet">
+      <span class="planet-badge ice">Ice Giant</span>
+      <h2>Uranus</h2>
+      <p class="type">The Sideways Planet</p>
+      <p>An ice giant that rotates completely on its side at an almost 90-degree angle compared to all other planets.</p>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="planet">
+      <span class="planet-badge ice">Ice Giant</span>
+      <h2>Neptune</h2>
+      <p class="type">The Windy Planet</p>
+      <p>The most distant major planet orbiting our Sun. It is a dark, cold world whipped by supersonic winds.</p>
+    </div>
+
+    <!-- Card 9 -->
+    <div class="planet">
+      <span class="planet-badge dwarf">Dwarf Planet</span>
+      <h2>Pluto</h2>
+      <p class="type">The Underdog</p>
+      <p>Downgraded to a dwarf planet in 2006, this icy world features a giant, spectacular heart-shaped glacier.</p>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+        <div class="footer-left">
+            &copy; 2026 Solar System Academy
+        </div>
+        <div class="footer-center">
+            Made for Block 6 - The Code
+        </div>
+        <div class="footer-right">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+  </footer>
+
+</body>
+</html>
